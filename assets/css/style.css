@@ -1,0 +1,2876 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bc {
+    background-color: #F6F8FE;
+}
+
+.bl {
+    background: #F1F0F9;
+}
+
+.Top--header {
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+
+.Top--header .fa-instagram {
+    margin-left: 10px;
+}
+
+.Giris {
+    border-right: 1px solid #E8E8E8;
+    padding-right: 10px;
+}
+
+.Top--header .fa-phone {
+    margin-left: 100px;
+}
+
+.fa-phone a {
+    margin-left: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #84879A;
+}
+
+.Yardim {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #84879A;
+}
+
+.GirisQeydiyyat {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.fa-user:before {
+    margin-right: 10px;
+}
+
+.Giris {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #84879A;
+}
+
+.Qeydiyyat {
+    margin-left: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #84879A;
+}
+
+.Mid--header {
+    padding: 30px;
+    background-color: #F6F8FE;
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+.Logo h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 31px;
+    color: #6B5959;
+}
+
+.CategoriesSearch {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E7EAE7;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.fa-magnifying-glass {
+    margin-left: 3px;
+    color: #E7EAE7;
+}
+
+.SelectCategories {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #484B5E;
+    margin-left: 10px;
+}
+
+.right--mid--header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.fa-heart {
+    margin-right: 50px;
+}
+
+
+.fa-heart:before {
+    content: "\f004";
+    margin-right: 10px;
+    color: #6A5BCD;
+}
+
+.fa-plus:before {
+    content: "\2b";
+    margin-right: 10px;
+    color: white;
+}
+
+.Secilenler {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.YeniElan {
+    width: 127px;
+    height: 47px;
+    background: #6A5BCD;
+    border-radius: 5px;
+    border: none;
+}
+
+.YeniElan a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.ChooseCategorySection {
+    padding-top: 50px;
+}
+
+.ChooseCategory h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 142.7%;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.ChooseCategorySection h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 142.7%;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.CategoriesImg {
+
+    width: 124px;
+    height: 124px;
+
+    background: #EBEBEB;
+    border-radius: 500px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    object-fit: contain;
+}
+
+.CategoriesInfo {
+    max-width: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CategoriesInfo a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.7%;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.CategoriesInfo:not(:nth-child(6n)) {
+    margin-right: 108px;
+}
+
+.CategoriesInfo h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.7%;
+    /* identical to box height, or 26px */
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+
+.Search {
+    border-left: #E7EAE7 solid;
+}
+
+.Search input:focus {
+    outline: none !important;
+}
+
+.Search input:valid {
+    outline: none;
+}
+
+.Search input:invalid {
+    outline: none;
+}
+
+.ElanDrop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.ElanDrop h1 {
+    padding-bottom: 15px;
+}
+
+.DropDown {
+    width: 183px;
+    height: 34px;
+    background: #F6F8FE;
+    border: 1px solid #E9E8EE;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DropDown h6 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 142.7%;
+    letter-spacing: 0.02em;
+    color: #95979F;
+}
+
+.fa-arrow-down {
+    margin-left: 10px;
+}
+
+.ChoosePrice {
+    width: 192px;
+    height: 134px;
+    left: 1018px;
+    top: 909px;
+    background: #F6F8FE;
+    border: 1px solid #E9E8EE;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.PremiumCard {
+    width: 208px;
+    height: 321px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 !important;
+}
+
+.CardSubject {
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #656569;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.PremiumCard img {
+    width: 100%;
+    height: 175px;
+}
+
+.CardPrice {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    /* display: flex;
+    justify-content: end;
+    text-align: end; */
+}
+
+.PremiumCard .fa-location-dot {
+    margin-left: 9px;
+    width: 13.3px;
+    height: 13.3px;
+    color: #D0D0D2;
+    margin-right: 8px;
+}
+
+
+.PremiumCard .fa-clock {
+    margin-left: 8px;
+    width: 13.3px;
+    height: 13.3px;
+    color: #D0D0D2;
+    margin-right: 8px;
+}
+
+.PremiumCard span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #979798;
+}
+
+.PremiumCard .CardPrice {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #484B5E;
+}
+
+.CardPrice .fa-manat-sign {
+    width: 20px;
+    height: 27.14px;
+    margin-right: 10px;
+}
+
+.PremiumCard .fa-heart {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    margin: 7px;
+    right: 2px;
+    top: 12px;
+}
+
+.PremiumCard .fa-heart:before {
+    color: #FFFFFF;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.PremiumCard .fa-crown {
+    display: flex;
+    justify-content: center;
+    height: 175px;
+    font-size: 70px;
+    align-items: center;
+}
+
+.PremiumEt {
+    width: 178px;
+    height: 45px;
+    background: #6A5BCD;
+    border-radius: 5px;
+    border: none;
+}
+
+.PremiumEt a {
+    color: white;
+}
+
+.PremiumEt button {
+    display: flex;
+    justify-content: en;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.PremiumPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PremiumCard button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.ShowPremium {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.ShowPremium button {
+    width: 385px;
+    height: 66px;
+    background: #E9E8EE;
+    border-radius: 5px;
+}
+
+.ShowPremium button h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #484B5E;
+}
+
+
+.SiteDescriptionTop h4 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #4F4F53;
+}
+
+.SiteDescriptionTop h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #979798;
+}
+
+.SiteDescriptionBottom h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #4F4F53;
+
+}
+
+.SiteDescriptionBottom li {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #979798;
+}
+
+.Tag {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tags h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #4F4F53;
+}
+
+.Tag a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #6A5BCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFEFFD;
+    max-width: 171px;
+    padding: 10px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.FooterTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.ElanYerlesdirin {
+    width: 247px;
+    height: 59px;
+    background: #6A5BCD;
+    border-radius: 5px;
+    border: none;
+}
+
+.ElanYerlesdirin a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.FooterTop h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #494B59;
+}
+
+.FooterBottom {
+    display: flex;
+    margin-top: 51px;
+    margin-bottom: 51px;
+}
+
+
+.LeftBottomFooter {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #9A9CA8;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.LeftBottomFooter .fa-phone span {
+    margin-left: 10px;
+}
+
+.LeftBottomFooter .fa-envelope span {
+    margin-left: 10px;
+}
+
+.LeftBottomFooter .fa-facebook-f {
+    margin-left: 15px;
+}
+
+.LeftMidBottomFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.LeftMidBottomFooter {
+    align-items: center;
+}
+
+.LeftMidBottomFooter li {
+    list-style: none;
+    width: 33%;
+}
+
+.LeftMidBottomFooter a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #9A9CA8;
+}
+
+.LeftMidBottomFooter h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.RightMidBottomFooter {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.RightMidBottomFooter li {
+    list-style: none;
+    width: 33%;
+}
+
+
+.RightMidBottomFooter a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #9A9CA8;
+}
+
+.RightBottomFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.RightBottomFooter li {
+    list-style: none;
+    width: 33%;
+}
+
+.RightBottomFooter h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.RightBottomFooter a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #9A9CA8;
+    white-space: nowrap;
+}
+
+.FooterEnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #F6F6F6;
+}
+
+.FooterEnd h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #9A9CA8;
+    margin-top: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    overflow: hidden;
+}
+
+.modal1 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    overflow: hidden;
+}
+
+.modal3 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    overflow: hidden;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 640px;
+    height: 830px;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Modal-Email {
+    margin-left: 70px;
+    margin-right: 71px;
+}
+
+
+.GirisDescription h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.GirisDescription h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #ABACB4;
+    margin-top: 15px;
+}
+
+.modal-header {
+    margin-top: 30px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    display: block;
+}
+
+.modal-body {}
+
+.Email-And-Number li {
+    list-style: none;
+}
+
+.Email-And-Number {
+    display: flex;
+    margin-top: 41px;
+}
+
+
+.SignMail {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABACB4;
+    border-bottom: 1px solid #ABA9B7;
+}
+
+.SignNumber {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABACB4;
+    border-bottom: 1px solid #ABA9B7;
+}
+
+.SignNumber-active {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+    border-bottom: 1px solid #6A5BCD;
+}
+
+.SignMail-active {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+    border-bottom: 1px solid #6A5BCD;
+}
+
+.Email-And-Number li:nth-child(2) {
+    margin-left: 27px;
+}
+
+.Email-And-Password {
+    margin-top: 40px;
+}
+
+
+.Email-And-Password h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+}
+
+.Email-And-Password input {
+    background: #EFF3FA;
+    border-radius: 5px;
+    width: 65%;
+    padding: 10px;
+    border: none;
+}
+
+.Email-And-Password input:focus {
+    outline: none;
+}
+
+.Email-And-Password input::placeholder {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #ABA9B7;
+}
+
+.Email-And-Password h1:nth-child(3) {
+    margin-top: 30px;
+}
+
+.Email-And-Password span {
+    position: relative;
+    display: flex;
+    max-width: 65%;
+    align-items: center;
+}
+
+.Email-And-Password .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    color: #BEBAD7;
+    font-size: 20px;
+
+}
+
+.Email-And-Password span input {
+    width: 100%;
+}
+
+.PasswordSave-PasswordForgot span h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+    margin-left: 5px;
+}
+
+.PasswordSave-PasswordForgot a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+    cursor: pointer;
+}
+
+.PasswordSave-PasswordForgot span {
+    display: flex;
+    align-items: center;
+}
+
+.PasswordSave-PasswordForgot input {
+    width: 25px;
+    height: 25px;
+    background: #EFF3FA;
+    border-radius: 4px;
+}
+
+.PasswordSave-PasswordForgot {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.SignIn-Or-Registration .SignIn {
+    width: 382px;
+    height: 69px;
+    background: #E9E8EE;
+    border-radius: 5px;
+    margin-top: 57px;
+}
+
+.SignIn-Or-Registration .Registration {
+    width: 382px;
+    height: 69px;
+}
+
+.SignIn-Or-Registration h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #3C3621;
+    display: flex;
+    width: 382px;
+    justify-content: center;
+}
+
+.SignIn-Or-Registration span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.SignIn {
+    border: none;
+}
+
+.Registration {
+    border-color: #6A5BCD;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.Registration span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+}
+
+
+.Phone-And-Password {
+    margin-top: 40px;
+}
+
+.Phone-And-Password h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+}
+
+.Phone-And-Password input {
+    background: #EFF3FA;
+    border-radius: 5px;
+    width: 46%;
+    padding: 10px;
+    border: none;
+}
+
+.Phone-And-Password input:focus {
+    outline: none;
+}
+
+.Phone-And-Password input::placeholder {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #ABA9B7;
+}
+
+.Phone-And-Password h1:nth-child(3) {
+    margin-top: 30px;
+}
+
+.Phone-And-Password span {
+    position: relative;
+    display: flex;
+    max-width: 65%;
+    align-items: center;
+}
+
+.Phone-And-Password .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    color: #BEBAD7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Phone-And-Password .fa-eye {
+    position: absolute;
+    right: 10px;
+    color: #BEBAD7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Phone-And-Password span input {
+    width: 100%;
+}
+
+
+#numbers {
+    height: 50px;
+    background: #F6F8FE;
+    border: 1px solid #E9E8EE;
+    border-radius: 5px;
+}
+
+.Modal-Registration {
+    margin-left: 70px;
+    margin-right: 71px;
+}
+
+.QeydiyyatDescription h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+
+.Name-And-Surname {
+    margin-top: 34px;
+}
+
+.Name-And-Surname h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    /* boz text */
+    color: #ABA9B7;
+    margin-bottom: 10px;
+}
+
+.Name-And-Surname input {
+    width: 375px;
+    height: 50px;
+    background: #EFF3FA;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.Name-And-Surname :focus {
+    outline: none;
+}
+
+.Name-And-Surname input text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #484B5E;
+}
+
+.Registration-Email {
+    margin-top: 30px;
+}
+
+.Registration-Email h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    /* boz text */
+    color: #ABA9B7;
+    margin-bottom: 10px;
+}
+
+.Registration-Email :focus {
+    outline: none;
+}
+
+.Registration-Email input {
+    width: 375px;
+    height: 50px;
+    background: #EFF3FA;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.Registration-Email input text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #484B5E;
+}
+
+.Registration-Number {
+    margin-top: 30px;
+}
+
+.Registration-Number h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    /* boz text */
+    color: #ABA9B7;
+    margin-bottom: 10px;
+}
+
+.Registration-Number select {
+    width: 100px;
+    height: 50px;
+    background: #EFF3FA;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.Registration-Number input {
+    width: 271px;
+    height: 50px;
+    background: #EFF3FA;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.Registration-Number :focus {
+    outline: none;
+}
+
+.Registration-Number input text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #484B5E;
+}
+
+.Registration-Password {
+    margin-top: 30px;
+}
+
+.Registration-Password input {
+    height: 50px;
+    background: #EFF3FA;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.Registration-Password h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    /* boz text */
+    color: #ABA9B7;
+    margin-bottom: 10px;
+}
+
+.Registration-Password span {
+    position: relative;
+    display: flex;
+    max-width: 375px;
+    align-items: center;
+}
+
+.Registration-Password .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    color: #BEBAD7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Registration-Password .fa-eye {
+    position: absolute;
+    right: 10px;
+    color: #BEBAD7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Registration-Password span input {
+    width: 100%;
+}
+
+.Registration-Password :focus {
+    outline: none;
+}
+
+.Verification-Section {
+    margin-top: 38px;
+    display: inline-flex;
+}
+
+.Verification-Section input {
+    height: 50px;
+    background: #EFF3FA;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 273px;
+}
+
+.Verification-Section :focus {
+    outline: none;
+}
+
+.Verification-Code-Generator {
+    width: 82px;
+    height: 50px;
+    border: 1px solid #E9E8EE;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.Verification-Code-Generator h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #6F7284;
+}
+
+.AgreementRules {
+    margin-top: 22px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.AgreementRules input {
+    width: 25px;
+    height: 25px;
+    background: #EFF3FA;
+}
+
+.AgreementRules a:nth-child(2) {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+    margin-left: 10px;
+}
+
+.AgreementRules a:nth-child(3) {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+    margin-left: 5px;
+}
+
+.Modal-Buttons {
+    margin-top: 30px;
+}
+
+.Modal-Buttons h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #3C3621;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.DavamEt {
+    width: 382px;
+    height: 69px;
+    background: #6A5BCD;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.DavamEt h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.DaxilOl {
+    width: 382px;
+    height: 69px;
+    border: 1px solid #E9E8EE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.DaxilOl h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #979798;
+}
+
+.modal-content-registration {
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 640px;
+    height: 1009px;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+.modal4 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content-code {
+    width: 640px;
+    height: 829px;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+
+.Modal-Registration-phone-code {
+    margin-left: 70px;
+    margin-right: 71px;
+}
+
+.Gonderilen-code {
+    margin-top: 20px;
+}
+
+.Gonderilen-code h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #ABACB4;
+}
+
+.numbers-code {
+    margin-top: 93px;
+    width: 31px;
+    width: 75%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.numbers-code input {
+    width: 45px;
+    height: 46px;
+    border: none;
+    border-bottom: 1px solid #E9E8EE;
+    text-align: center;
+    font-size: 25px;
+}
+
+.numbers-code input:focus,
+.numbers-code input:valid {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #6A5BCD;
+}
+
+
+.numb {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.code-time {
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    margin-top: 23px;
+}
+
+.approve-numb-button {
+    margin-top: 76px;
+}
+
+.approve-numb-button button {
+    width: 382px;
+    height: 69px;
+    background: #E9E8EE;
+    border-radius: 5px;
+    border: none;
+}
+
+.approve-numb-button button h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.Code-issue {
+    margin-top: 20px;
+    display: flex;
+    width: 76%;
+    justify-content: space-between;
+}
+
+
+.Code-issue a:nth-child(1) {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 148.7%;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline !important;
+    color: #484B5E;
+}
+
+.Code-issue a:nth-child(2) {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 148.7%;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+}
+
+
+.complete-registration {
+    margin-top: 76px;
+    display: none;
+}
+
+.complete-registration button {
+    width: 382px;
+    height: 69px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.complete-registration button:nth-child(1) {
+    background: #5BCD74;
+    margin-bottom: 25px;
+}
+
+.complete-registration button:nth-child(2) {
+    border: 1px solid #6A5BCD;
+}
+
+
+.complete-registration button h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.complete-registration button h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+}
+
+
+.modal-content-fp {
+    width: 640px;
+    height: 829px;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+.Modal-Forgot-Password {
+    margin-left: 70px;
+    margin-right: 71px;
+    margin-top: 45px;
+}
+
+.Forgot-Password-Description h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #484B5E;
+}
+
+.Forgot-Password-Description h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #979798;
+    margin-top: 15px;
+}
+
+.Email-active-fp {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+    border-bottom: 1px solid #6A5BCD;
+}
+
+.Number-fp {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABACB4;
+    border-bottom: 1px solid #ABA9B7;
+}
+
+
+.Email-input-section-fp {
+    margin-top: 47px;
+}
+
+.Email-input-section-fp h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+}
+
+.Email-input-section-fp input {
+    width: 375px;
+    height: 51px;
+    background: #EFF3FA;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    padding-left: 20px;
+}
+
+.Email-input-section-fp input::placeholder {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+
+}
+
+.Email-input-section-fp input:focus {
+    outline: none;
+}
+
+.Email-active-fp input text {
+    padding-left: 20px;
+}
+
+.Email-input-section-fp button {
+    width: 382px;
+    height: 69px;
+    background: #E9E8EE;
+    border-radius: 5px;
+    margin-top: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+.Email-input-section-fp button h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Email-fp {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABACB4;
+    border-bottom: 1px solid #ABA9B7;
+}
+
+.Number-active-fp {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+    border-bottom: 1px solid #6A5BCD;
+}
+
+.Phone-input-section-fp {
+    margin-top: 47px;
+}
+
+.Phone-input-section-fp h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+}
+
+.Phone-input-section-fp input {
+    width: 375px;
+    height: 51px;
+    background: #EFF3FA;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    padding-left: 20px;
+}
+
+.Phone-input-section-fp input::placeholder {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+
+}
+
+.Phone-input-section-fp input:focus {
+    outline: none;
+}
+
+.Phone-active-fp input text {
+    padding-left: 20px;
+}
+
+.Phone-input-section-fp button {
+    width: 382px;
+    height: 69px;
+    background: #E9E8EE;
+    border-radius: 5px;
+    margin-top: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+.Phone-input-section-fp button h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Phone-or-Email {
+    display: none;
+}
+
+.modal5 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    overflow: hidden;
+}
+
+
+.modal6 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    overflow: hidden;
+}
+
+.CheckPhoneDescription h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.CheckPhoneDescription h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169.2%;
+    letter-spacing: 0.03em;
+    color: #979798;
+}
+
+.CheckEmailDescription {
+    display: none;
+}
+
+.CheckEmailDescription h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.CheckEmailDescription h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #979798;
+}
+
+
+.modal-content-new-password {
+    width: 640px;
+    height: 717px;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+.New-Password-Section {
+    margin-top: 50px;
+}
+
+.New-Password-Section h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+}
+
+.New-Password-Section input {
+    background: #EFF3FA;
+    border-radius: 5px;
+    width: 46%;
+    padding: 10px;
+    border: none;
+}
+
+.New-Password-Section input:focus {
+    outline: none;
+}
+
+.New-Password-Section input::placeholder {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #ABA9B7;
+}
+
+
+.New-Password-Section span {
+    position: relative;
+    display: flex;
+    max-width: 65%;
+    align-items: center;
+}
+
+.New-Password-Section .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    color: #BEBAD7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.New-Password-Section .fa-eye {
+    position: absolute;
+    right: 10px;
+    color: #BEBAD7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.New-Password-Section span input {
+    width: 100%;
+}
+
+.New-Password-Section h1:nth-child(3) {
+    margin-top: 30px;
+}
+
+.Save--Password {
+    margin-top: 20px;
+}
+
+.Save--Password span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.Save--Password span input {
+    width: 25px;
+    height: 25px;
+    background: #EFF3FA;
+    border-radius: 4px;
+}
+
+.Save--Password h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #ABA9B7;
+    margin-left: 10px;
+    margin-bottom: 0px !important;
+}
+
+.Confirm-Password-Button button {
+    margin-top: 55px;
+    width: 382px;
+    height: 69px;
+    background: #6A5BCD;
+    border-radius: 5px;
+    border: none;
+}
+
+.Confirm-Password-Button h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.modal7 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    overflow: hidden;
+}
+
+.Success-Password-Change {
+    display: none;
+    margin-top: 55px;
+}
+
+.Success-Password-Change h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.Success-Password-Change h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+}
+
+.Success-Password-Change button:nth-child(1) {
+    width: 382px;
+    height: 69px;
+    background: #5BCD74;
+    border-radius: 5px;
+    border: none;
+}
+
+.Success-Password-Change button:nth-child(2) {
+    width: 382px;
+    height: 69px;
+    border: 1px solid #6A5BCD;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#Categories-Menu-Bar {
+    margin-left: -10px;
+    display: none;
+    width: 100%;
+}
+
+
+.Categories-menu {
+    width: 1280px;
+    height: 473.54px;
+    background: white;
+    position: absolute;
+    margin-top: 25px;
+    z-index: 1;
+}
+
+.Categories-menu-all {
+    margin-top: 28px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 1140px;
+    height: 415px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.Categories-menu-all .left-side-menu h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7D8092;
+    margin-left: 15px;
+    margin-right: 111px;
+}
+
+.left-side-menu a {
+    display: inline-flex;
+    align-items: baseline;
+    /* margin-bottom: 15px; */
+    width: 100%;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+
+.left-side-menu span {
+    display: grid;
+}
+
+.left-side-menu span i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side-menu a {
+    transition: 0.5s;
+}
+
+.left-side-menu a:hover {
+    background-color: #F7F7FC;
+    border-radius: 5px;
+}
+
+.left-side-menu .fa-arrow-right {
+    color: #A8A8AA;
+}
+
+.left-side-menu:nth-child(2) {
+    padding-left: 53px;
+}
+
+.right-side-menu h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+    margin: bottom 30px;
+    ;
+}
+
+.right-side-menu li {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #7D8092;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.right-side-menu {
+    display: inline-grid;
+    padding-right: 70px;
+    width: 55%;
+    justify-content: end;
+
+}
+
+.right-side-menu-content {
+    background: #FBFBFD;
+    border: 1px solid rgba(106, 91, 205, 0.1);
+    border-radius: 5px;
+    width: 255px;
+    height: 401px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.right-side-menu-content h1 {
+    margin: 30px 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #6A5BCD;
+}
+
+.right-side-menu-content li {
+    margin-bottom: 20px;
+}
+
+.left-side-menu p {
+    display: flex;
+    align-items: center;
+}
+
+.span-text {
+    margin-left: 15px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #7D8092;
+}
+
+.span-icon i {
+    width: 28px;
+    height: 28px;
+    background: #FFF4F9;
+    border-radius: 50px;
+}
+
+.left-side-menu {
+    width: 30%;
+}
+
+.left-side-menu:nth-child(2) .span-text {
+    margin-left: 0px;
+}
+
+.left-side-menu:nth-child(2) p {
+    height: 28px;
+}
+
+.Search-Section-Input {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 20px;
+}
+
+.Add-City-Section {
+    border-bottom: 1px solid #F6F6F6;
+    display: flex;
+    margin-top: 22.25px;
+    align-items: center;
+}
+
+.Add-City-Section h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #979798;
+}
+
+
+.Add-City-Section .fa-location-dot {
+    color: #D0D0D2;
+    width: 10.5px;
+    height: 13.5px;
+}
+
+.Add-City-Section span {
+    margin-right: 32.75px;
+    margin-right: 13.75px;
+    margin-bottom: 12.25px;
+    margin-left: 32.75px;
+}
+
+
+.Last-Search-Section {
+    margin-left: 29px;
+    margin-top: 10px;
+}
+
+.Last-Search-Section h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #A4A4B1;
+    margin-bottom: 15px;
+}
+
+.Last-Search-Section-Tags a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #6A5BCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFEFFD;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 75px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.Last-Search-Section-Tags {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.Search-More-İnfo {
+    display: none;
+    position: absolute;
+    width: 33%;
+}
+
+.Similar-Search h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #484B5E;
+}
+
+.Similar-Search h2:nth-child(2) {
+    margin-bottom: 12px;
+}
+
+.Similar-Search {
+    display: none;
+    margin-top: 10px;
+    border-top: 1px solid #F6F6F6;
+}
+
+.Similar-Search h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #A4A4B1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.KateqoriyaSeçin {
+    display: block;
+}
+
+.Apartments-section {
+    background-color: #F6F8FE;
+    display: none;
+}
+
+.Apartments-section-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 16%;
+}
+
+.Apartments-section-top h1 {
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #9A9CA8;
+}
+
+.Apartments-section-top i {
+    width: 7.78px;
+    color: #9A9CA8;
+}
+
+.Apartments-section-top span {
+    font-size: 10px;
+}
+
+.Mənzillər {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.Mənzillər h1 {
+    font-family: DM Sans;
+    Font-style: Bold;
+    Font-size: 30px;
+    Line-height: 43px;
+    Line-height: 143%;
+    color: #484B5E;
+}
+
+.Mənzillər h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #979798;
+}
+
+.Mənzillər h2 span {
+    color: #484B5E;
+}
+
+.Mənzillər-box {
+    height: 200px;
+    left: 70px;
+    top: 329px;
+    background: white;
+}
+
+.Mənzillər-left {
+    width: 18%;
+}
+
+.Mənzillər-right {
+    width: 20%;
+}
+
+.Mənzillər-box-left h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #7D8092;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Mənzillər-box-right h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #7D8092;
+    display: flex;
+    justify-content: space-between;
+}
+
+.YeniElanYarat h1 {
+    padding-top: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 142.7%;
+    letter-spacing: 0.02em;
+    color: #484B5E;
+}
+
+.Qaydalarimiz {
+    width: 1140px;
+    background: rgba(240, 241, 250, 0.85);
+    border-radius: 5px;
+}
+
+.Qaydalarimiz h2 {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #686877;
+}
+
+.Qaydalarimiz li {
+    list-style: none;
+    padding-left: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    color: #707079;
+    padding-bottom: 12px;
+}
+
+.Qaydalarimiz li:nth-child(6) {
+    padding-bottom: 30px;
+}
+
+.YourInfo-Top {
+    display: flex;
+}
+
+.YourInfo-Right {
+    padding-left: 120px;
+}
+
+.YourInfo h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #979CA8;
+}
+
+.YourInfo input {
+    background: #FFFFFF;
+    border: 1px solid #E7EAE7;
+    border-radius: 5px;
+    width: 375px;
+    height: 50px;
+}
+
+.YourInfo-Left input {
+    margin-bottom: 40px;
+}
+
+.YourInfo-Right input {
+    margin-bottom: 40px;
+}
+
+.ProductInfo-Name {
+    display: flex;
+    position: relative;
+    padding-top: 40px;
+}
+
+.ProductInfo-Name h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ABA9B7;
+    padding-right: 5px;
+}
+
+.ProductInfo-Name .question-icon {
+    color: #EBEBFA;
+    border: 1px solid #D0D0D2;
+    height: 15px;
+    width: 15px;
+    border-radius: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ProductInfo-Name .question-icon i {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #979798;
+    position: absolute;
+}
+
+.question-twit {
+    display: none;
+    width: 307px;
+    height: 50px;
+    background: #C4C4C4;
+    margin-left: 20px;
+    position: absolute;
+    left: 6%;
+    top: -14px;
+    margin-top: 19px;
+}
+
+.ProductInfo-Name:hover .question-twit {
+    display: block;
+}
+
+.question-twit li {
+    list-style: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.025em;
+    color: #707079;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.question-icon:hover .question-twit {
+    display: block;
+}
+
+.ProductInfo input {
+    width: 870px;
+    height: 50px;
+    padding-top: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #E7EAE7;
+    border-radius: 5px;
+}
+
+
+.dropbtn {
+    background: #FFFFFF;
+    border: 1px solid #E7EAE7;
+    border-radius: 5px;
+    width: 375px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropbtn h5 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #5F6065;
+    padding-left: 20px;
+}
+
+
+.productInfo-mid-left-dropdown {
+    display: inline-block;
+}
+
+.Categories-dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.Categories-dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 18px;
+    padding-left: 20px;
+
+
+}
+
+.dropdown a:hover {
+    background-color: rgb(195, 117, 117);
+}
+
+.show {
+    display: block;
+    position: absolute;
+    width: 22%;
+    height: 66%;
+    max-width: 22%;
+}
+
+.productInfo-mid-left h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #979CA8;
+}
+
+.productInfo-mid-left-dropdown span i {
+    color: #9A9CA8;
+    padding-right: 20.5px;
+}
+
+
+#SelectCitybtn {
+    background-color: aqua;
+    border: 1px solid #E7EAE7;
+    border-radius: 5px;
+    width: 375px;
+    height: 50px;
+}
+
+#SelectPrice {
+    background-color: aqua;
+    border: 1px solid #E7EAE7;
+    border-radius: 5px;
+    width: 375px;
+    height: 50px;
+}
+
+#SelectVideo {
+    background-color: aqua;
+    border: 1px solid #E7EAE7;
+    border-radius: 5px;
+    width: 375px;
+    height: 50px;
+}
+
+
+.productInfo-mid-right h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #979CA8;
+}
+
+.ProductInfo-mid {
+    display: flex;
+}
+
+.productInfo-mid-right {
+    margin-left: 9%;
+}
+
+.ProductInfo-Picture {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.ProductInfo-Picture h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #979CA8;
+}
+
+.ProductInfo-Picture .question-icon {
+    color: #EBEBFA;
+    border: 1px solid #D0D0D2;
+    height: 16px;
+    width: 15px;
+    border-radius: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+.ProductInfo-Picture i {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #979798;
+    position: absolute;
+}

@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+            integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="Top--header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 row" style="display: flex; align-items: center;">
+                            <div class="col-3">
+                                <i class="fa-brands fa-facebook-f text-muted"></i>
+                                <i class="fa-brands fa-instagram text-muted"></i>
+                            </div>
+                            <div class="d-flex col-9 gap-5">
+                                <i class="fa-solid fa-phone text-muted"><a href="#">(+994) 70 256 24 89</a></i>
+                                <a href="#" class="Yardim">Yardım və dəstək</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 GirisQeydiyyat">
+                            <i class="fa-regular fa-user"><a href="#" class="Giris" id="myBtn">Giriş</a></i>
+                            <a href="#" id="myBtn3" class="Qeydiyyat">Qeydiyyat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Mid--header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1 Logo">
+                            <h3>Logo</h3>
+                        </div>
+                        <div class="col-md-7 CategoriesSearch">
+                            <div id="Categories-Menu-Bar" class="Categories-Menu-Bar">
+                                <div class="Categories-menu">
+                                    <div class="Categories-menu-all">
+                                        <div class="column left-side-menu">
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i class="fa-solid fa-house"></i></span>
+                                                    <span class="span-text">Ev və bağ</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i
+                                                            class="fa-solid fa-mobile"></i></i></span>
+                                                    <span class="span-text">Elektronika və texnika</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i
+                                                            class="fa-solid fa-building"></i></i></span>
+                                                    <span class="span-text">Daşınmaz əmlak</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i class="fa-solid fa-car"></i></span>
+                                                    <span class="span-text">Nəqliyyat</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i class="fa-solid fa-shirt"></i></span>
+                                                    <span class="span-text">Şəxsi əşyalar</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i class="fa-regular fa-futbol"></i></span>
+                                                    <span class="span-text">Hobbi,asudə</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i
+                                                            class="fa-solid fa-child-reaching"></i></span>
+                                                    <span class="span-text">Uşaq aləmi</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i class="fa-solid fa-otter"></i></i></span>
+                                                    <span class="span-text">Heyvan</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i class="fa-solid fa-briefcase"></i></span>
+                                                    <span class="span-text">Vakansiyalar</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-icon"><i class="fa-solid fa-wrench"></i></span>
+                                                    <span class="span-text">Vakansiyalar</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                        <div class="column left-side-menu">
+                                            <a href="#" id="Apartmentsbtn">
+                                                <p>
+                                                    <span class="span-text">Mənzillər</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-text">Villalar</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-text">Qarajlar</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-text">Bağ evləri</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-text">Obyekt və ofislər</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#">
+                                                <p>
+                                                    <span class="span-text">Torpaq sahələri</span>
+                                                </p>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+
+                                        </div>
+                                        <div class="right-side-menu">
+                                            <div class="right-side-menu-content">
+                                                <h1>populyar axtarışlar</h1>
+                                                <ul>
+                                                    <li>Bakcell nömrələri</li>
+                                                    <li>Xiomit</li>
+                                                    <li>Ev alqı satqısı</li>
+                                                    <li>Maşın elanları</li>
+                                                    <li>Kirayə bağ evi</li>
+                                                    <li>Mətbəx mebelləri</li>
+                                                    <li>Nar nömrələri</li>
+                                                    <li>Azercell nömrələri</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="CategoriesBtn" class="Categories col-3">
+                                <i class="fa-solid fa-list-ul"><a href="#" class="SelectCategories">Kateqoriya
+                                        seçin</a></i>
+
+
+                            </div>
+                            <div class="Search col-9">
+                                <input id="Search-Input-btn"
+                                    style="width: 96%; border:none; color:#A8A8AA ;padding: 10px;" type="text"
+                                    placeholder="Axtaracağınız məhsul,elan,kateqoriyanı yazın"><i
+                                    class="fa-solid fa-magnifying-glass"></i>
+                                <div id="Search-More-İnfo" class="Search-More-İnfo">
+                                    <div class="Search-Section-Input">
+                                        <div class="Add-City-Section">
+                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                            <h1>Şəhər əlavə edin</h1>
+                                        </div>
+                                        <div class="Last-Search-Section">
+                                            <h1>Ən son axtarılanlar</h1>
+                                            <div class="Last-Search-Section-Tags">
+                                                <a href="#">iphone12</a>
+                                                <a href="#">Ofis</a>
+                                                <a href="#">Dibçək</a>
+                                            </div>
+                                            <div id="Similar-Search" class="Similar-Search">
+                                                <h1>Əlaqəli nəticələr</h1>
+                                                <h2>Dibçək</h2>
+                                                <h2>Dibçək altlığı</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 right--mid--header">
+                            <i class="fa-regular fa-heart"><a href="#" class="Secilenler">Seçilənlər</a></i>
+                            <button id="Yenielanbtn" class="YeniElan"><i class="fa-solid fa-plus"><a href="#">Yeni
+                                        elan</a></i></button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="KateqoriyaSeçin bc">
+                <div class="ChooseCategory container">
+                    <h1 class="ChooseCategorySection">Kateqoriya seçin</h1>
+                    <div class="row">
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg"
+                                src="assets/images/Daşınmaz əmlak.png" alt="">
+                            <h1><a href="#">Daşınmaz əmlak</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg"
+                                src="assets/images/5a377c3be6d3a3e53889a8edf744f989.png" alt="">
+                            <h1><a href="#">Nəqliyyat</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg"
+                                src="assets/images/Ev və bağ üçün.jfif" alt="">
+                            <h1><a href="#">Ev və bağ üçün</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg" src="assets/images/Xidmetler.png"
+                                alt="">
+                            <h1><a href="#">Xidmətlər</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg" src="assets/images/ModaVeStil.jfif"
+                                alt="">
+                            <h1><a href="#">Moda və stil</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg" src="assets/images/UsaqAlemi.png"
+                                alt="">
+                            <h1><a href="#">Uşaq aləmi</a></h1>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg"
+                                src="assets/images/ElektronikaVeTexnika.jfif" alt="">
+                            <h1><a href="#">Elektronika və texnika</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg" src="assets/images/Heyvanlar.jfif"
+                                alt="">
+                            <h1><a href="#">Heyvanlar</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg"
+                                src="assets/images/HobbiVeIdman.png" alt="">
+                            <h1><a href="#">Hobbi,idman,asudə</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg" src="assets/images/Biznes.jfif"
+                                alt="">
+                            <h1><a href="#">Biznes</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg" src="assets/images/Vakansiylar.png"
+                                alt="">
+                            <h1><a href="#">Vakansiyalar</a></h1>
+                        </div>
+                        <div class="CategoriesInfo col-2"><img class="CategoriesImg invisible" src="" alt="">
+                            <h1></h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="YeniElanYarat container">
+                <div class="YeniElanYarat-section">
+                    <h1>Yeni elan yarat</h1>
+                    <div class="Qaydalarimiz">
+                        <h2>Qaydalarımız</h2>
+                        <li> <a>1. Eyni elanı bir neçə dəfə təqdim etməyin</a> </li>
+                        <li> <a>2. “Şəkil” lərinizdə telefon nömrələri, e-mail və ya sayt ünvanları qeyd etməyin. Onları
+                                “şəxsi məlumatlar” bölməsində qeyd edə bilərsiniz</a> </li>
+                        <li> <a>3. “Elanın adı” bölməsində qiyməti daxil etməyin. Qiymət üçün sizə ayırdığımız bölməmiz
+                                var</a> </li>
+                        <li> <a>4. Qadağan olunmuş məhsulların siyahısı</a> </li>
+                        <li> <a>5. Saytın tam qaydaları</a> </li>
+                    </div>
+
+                </div>
+                <div class="YourInfo">
+                    <h1>Şəxsi məlumatlar</h1>
+                    <div class="YourInfo-Top">
+                        <div class="YourInfo-Left">
+                            <h3>Ad Soyad</h3>
+                            <input type="text">
+                            <h3>Email</h3>
+                            <input type="text">
+                        </div>
+                        <div class="YourInfo-Right">
+                            <h3>Telefon nömrəniz</h3>
+                            <input type="text">
+                            <h3>Whatsapp nömrəniz</h3>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="ProductInfo">
+                    <h1>Məhsul haqqında məlumatlar</h1>
+                    <div class="ProductInfo-Name">
+                        <h2>Elanın adı</h2><span class="question-icon"><i class="fa-solid fa-question"></i></span>
+                        <span class="question-twit"> <a href=""><span></span>
+                                <li>“Şəkil” lərinizdə telefon nömrələri, e-mail və ya sayt ünvanları qeyd etməyin.
+                                    Onları “şəxsi məlumatlar” bölməsində daxil
+                                    etdiniz</li>
+                            </a></span>
+                    </div>
+                    <input type="text">
+                </div>
+                <div class="ProductInfo-mid">
+                    <div class="productInfo-mid-left">
+                        <div class="productInfo-mid-left-dropdown">
+                            <h1>Kateqoriya</h1>
+                            <button onclick="myFunction()" class="dropbtn">
+                                <h5>Moda və stil</h5><span><i class="fa-solid fa-chevron-down"></i></span>
+                            </button>
+                            <div id="CategoriesDropdowm" class="Categories-dropdown-content">
+                                <a href="#">Ev və bağ <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#">Elektronika və texnika <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#">Daşınmaz əmlak <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#">Nəqliyyat <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#">Şəxsi əşyalar <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#">Hobbi,asudə <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#">Uşaq aləmi <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#">Heyvan <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#">Vakansiyalar <i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                            <h1>Şəhər</h1>
+                            <button id="SelectCitybtn"></button>
+
+                            <h1>Qiymət</h1>
+                            <button id="SelectPrice"></button>
+
+                            <h1>Video (Youtube, Vimeo)</h1>
+                            <button id="SelectVideo"></button>
+                        </div>
+                    </div>
+                    <div class="productInfo-mid-right">
+                        <h1>Video (Youtube, Vimeo)</h1>
+                        <button id="SelectVideo"></button>
+
+                        <h1>Video (Youtube, Vimeo)</h1>
+                        <button id="SelectVideo"></button>
+
+                        <h1>Video (Youtube, Vimeo)</h1>
+                        <button id="SelectVideo"></button>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="ProductInfo-Picture">
+                        <h2>Şəkil</h2><span class="question-icon"><i class="fa-solid fa-question"></i></span>
+                        <span class="question-twit"> <a href=""><span></span>
+                            <li>“Şəkil” lərinizdə telefon nömrələri, e-mail və ya sayt ünvanları qeyd etməyin.
+                                Onları “şəxsi məlumatlar” bölməsində daxil
+                                etdiniz</li>
+                        </a></span>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="Apartments-section container">
+                <div class="Apartments-section-top">
+                    <h1>Daşınmaz əmlak</h1>
+                    <span><i class="fa-solid fa-chevron-right"></i></span>
+                    <h1>Mənzillər</h1>
+                </div>
+                <div class="Mənzillər">
+                    <h1>Mənzillər</h1>
+                    <h2>Elan sayı : <span>5535131</span></h2>
+                </div>
+                <div class="Mənzillər-box">
+                    <div class="d-flex">
+                        <div class="px-4 mt-4 Mənzillər-left">
+                            <div class="Mənzillər-box-left">
+                                <h1>Mənzillər <span>231335</span> </h1>
+                                <h1>Bağ evləri <span>35</span></h1>
+                                <h1>Villalar <span>2</span></h1>
+                                <h1>Qarajlar <span>45</span></h1>
+                            </div>
+                        </div>
+                        <div class="px-4 mt-4 Mənzillər-right">
+                            <div class="Mənzillər-box-right">
+                                <h1>Obyektlər və ofislər<span>8565</span> </h1>
+                                <h1>Torpaq sahələri<span>1335</span></h1>
+                                <h1>Həyət evləri<span>2</span></h1>
+                                <h1>Qarajlar<span>23</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <select class="DropDown">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="PremiumElanlar bc">
+                <div class="container ElanDrop">
+                    <h1>Premium elanlar</h1>
+                    <select class="DropDown">
+                        <option>Ucuzdan bahalıya</option>
+                        <option value="">En yeniler</option>
+                        <option value="">Bahalıdan ucuza</option>
+                        </option>
+                    </select>
+                </div>
+                <div class="container PremiumCards">
+                    <div class="row cards">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <span><i class="fa-solid fa-crown"></i></span>
+                            <a class="CardSubject" href="#">Elanını Premium et</a>
+                            <a class="PremiumPrice">3<span><i class="fa-solid fa-manat-sign"></i></span>/5gün</a>
+                            <button class="YeniElan"><a href="#">Premium et</a></i></button>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                    <div class="row mt-4 d-flex justify-content-between">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                    <div class="row mt-4 d-flex justify-content-between">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="ShowPremium">
+                    <button>
+                        <h1>Bütün premium elanları göstər</h1>
+                    </button>
+                </div>
+            </div>
+            <div class="ƏnSonElanlar bl">
+                <div class="container ElanDrop">
+                    <h1>Ən son elanlar</h1>
+                    <select class="DropDown">
+                        <option>Ucuzdan bahalıya</option>
+                        <option value="">En yeniler</option>
+                        <option value="">Bahalıdan ucuza</option>
+                        </option>
+                    </select>
+                </div>
+                <div class="container PremiumCards">
+                    <div class="row cards">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                    <div class="row mt-4 d-flex justify-content-between">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                    <div class="row mt-4 d-flex justify-content-between">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="ShowPremium">
+                    <button>
+                        <h1>Daha çox elan göstər</h1>
+                    </button>
+                </div>
+            </div>
+            <div class="VipElanlar bc">
+                <div class="container ElanDrop">
+                    <h1>VİP elanlar</h1>
+                    <select class="DropDown">
+                        <option>Ucuzdan bahalıya</option>
+                        <option value="">En yeniler</option>
+                        <option value="">Bahalıdan ucuza</option>
+                        </option>
+                    </select>
+                </div>
+                <div class="container PremiumCards">
+                    <div class="row cards">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <span><i class="fa-solid fa-crown"></i></span>
+                            <a class="CardSubject" href="#">Elanını VIP et</a>
+                            <a class="PremiumPrice">3<span><i class="fa-solid fa-manat-sign"></i></span>/5gün</a>
+                            <button class="YeniElan"><a href="#">Premium et</a></i></button>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                    <div class="row mt-4 d-flex justify-content-between">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                    <div class="row mt-4 d-flex justify-content-between">
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Çarpayı.png" alt="">
+                            <a class="CardSubject" href="#">Çarpayı</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">550<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Şirkətə satış meneceri axtarılır.jfif" alt="">
+                            <a class="CardSubject" href="#">Şirkətə satış meneceri axtarılır</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">700<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Yükdaşıma xidməti.jfif" alt="">
+                            <a class="CardSubject" href="#">Yükdaşıma xidməti</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">200<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                        <div class="PremiumCard">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="assets/images/Toy pudil cinsi.jfif" alt="">
+                            <a class="CardSubject" href="#">Toy pudil cinsi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot mt-3"></i><span>Baki</span></a>
+                            <a href="#"><i class="fa-solid fa-clock"></i><span>13.04.22</span></a>
+                            <h2 class="CardPrice">400<i class="fa-solid fa-manat-sign"></i></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="ShowPremium">
+                    <button>
+                        <h1>Bütün premium elanları göstər</h1>
+                    </button>
+                </div>
+            </div>
+            <div class="SiteDescription bc pt-5">
+                <div class="container">
+                    <div class="SiteDescriptionTop">
+                        <h4>“Sat Getsin” İstədiyini tez taparaq vaxtına qənaət et</h4>
+                        <h1 class="mt-3 mb-3">Sərfəli şərtlərlə mənzil almaq istəyirsiz? Avtomobilinizi tez satmağı
+                            planlaşdırırsız? Yüksək
+                            maaşlı iş axtarırsız?
+                            Tut.az Pulsuz Elanlar saytı bu və digər məsələləri həll etmək üçün ideal vasitədir.</h1>
+                        <h1 class="mb-3">
+                            İstənilən məhsul, xidmət tez bir zamanda satıb, alıb və ya sifariş edə bilərsiz. Sayta hər
+                            gün
+                            müxtəlif mövzularda yüzlərlə Pulsuz Elanlar əlavə olunur. Istədiyinizi rahat tap az vaxt
+                            sərf et
+                            – sabaha saxlamayın, elə indi başlayın!
+                        </h1>
+                    </div>
+                    <div class="SiteDescriptionBottom mt-5">
+                        <h3 class="mt-3 mb-3">“Sat Getsin” Pulsuz Elanlar Saytının üstünlükləri nələrdir?</h3>
+                        <li class="mb-3">çoxlu sayda mal və xidmət: elektronika və məişət texnikası, daşınmaz əmlak,
+                            minik avtomobillər,
+                            iş - burada hər zövqə uyğun elan tapa bilərsiniz!</li>
+                        <li class="mb-3">böyük auditoriya: Elanızı gündəlik mindən çox insanın ziyarət etdiyi veb
+                            saytımızda, həm də
+                            partnyorlarımızın - respublikanın aparıcı xəbər saytlarında: Oxu.az, Media.az, Baku.ws və s.
+                            yerləşdirə bilərsiz!</li>
+                        <li>elanın unikallaşdırılması imkanları. Elanızın həm veb saytımızda, həm də tərəfdaşlarımızın
+                            saytlarında başqaları arasında fərqlənməsini istəyirsinizsə, pullu vasitələrdən istifadə edə
+                            bilərsiniz.</li>
+                    </div>
+                </div>
+
+            </div>
+            <div class="Tags pt-5 pb-5 bc">
+                <div class="container">
+                    <h1 class="pb-4">Ən məşhur sorğular</h1>
+                    <div class="Tag row">
+                        <a href="#">Ev alqı satqısı</a>
+                        <a href="#">Kirayə evlər</a>
+                        <a href="#">Maşın elanları</a>
+                        <a href="#">Ev elanları</a>
+                        <a href="#">Kirayə</a>
+                        <a href="#">İş elanları</a>
+                        <a href="#">Kirayə evlər</a>
+                        <a href="#">Maşın elanları</a>
+                        <a href="#">İş elanları</a>
+                        <a href="#">Maşın elanları</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="Footer">
+                <div class="container">
+                    <div class="FooterTop mt-5">
+                        <h1>Logo</h1>
+                        <button class="ElanYerlesdirin"><i class="fa-solid fa-plus"><a href="#">Elan
+                                    yerləşdirin</a></i></button>
+                    </div>
+                    <div class="FooterBottom">
+                        <div class="LeftBottomFooter col-3 ">
+                            <i class="fa-solid fa-phone"><span>(+994)70 256 24 89</span></i>
+                            <i class="fa-solid fa-envelope"><span>example@az</span></i>
+                            <span><i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-facebook-f"></i></span>
+                        </div>
+                        <div class="LeftMidBottomFooter col-3">
+                            <h1>Kateqoriyalar</h1>
+                            <li><a href="#">Daşınmaz əmlak</a></li>
+                            <li><a href="#">Nəqliyyat</a></li>
+                            <li><a href="#">Ev və bağ üçün</a></li>
+                            <li><a href="#">Xidmətlər</a></li>
+                            <li><a href="#">Şəxsi əşyalar</a></li>
+                            <li><a href="#">Uşaq aləmi</a></li>
+                            <li><a href="#">Elektronika və texnika</a></li>
+                            <li><a href="#">Heyvanlar</a></li>
+                        </div>
+                        <div class="RightMidBottomFooter col-3">
+                            <li><a href="#" href="#">Hobbi,asudə,idman</a></li>
+                            <li><a href="#" href="#">Biznes</a></li>
+                            <li><a href="#" href="#">Vakansiyalar</a></li>
+                        </div>
+                        <div class="RightBottomFooter col-3">
+                            <h1>Kömək</h1>
+                            <li><a href="#">Elanlar</a></li>
+                            <li><a href="#">Yardım və dəstək</a></li>
+                            <li><a href="#">Qaydalar</a></li>
+                            <li><a href="#">İstifadəçi razılaşması</a></li>
+                            <li><a href="#">Məxfilik siyasəti</a></li>
+                        </div>
+                    </div>
+                    <div class="FooterEnd">
+                        <h1>Bütün hüquqlar qorunur 2022</h1>
+                        <h1>Site by Jedai</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="myModal" class="modal allmodal">
+            <div class="modal-content">
+                <div class="Modal-Email">
+                    <span class="close">&times;</span>
+                    <div class="modal-header">
+                        <div class="GirisDescription">
+                            <h1>“Sat Getsin” ə xoş gəlmişsiniz !</h1>
+                            <h2>Qeydiyyat zamanı istifadə etdiyiniz e-mail (nömrə) və şifrə vasitəsilə daxil olun</h2>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="Email-And-Number">
+                            <li>
+                                <a href="#" class="SignMail-active">Email</a>
+                            </li>
+                            <li>
+                                <a href="#" id="myBtn1" class="SignNumber">Mobil nömrə</a>
+                            </li>
+                        </div>
+                        <div class="Email-And-Password">
+                            <h1>Email</h1>
+                            <input placeholder="Emailinizi daxil edin">
+                            <h1>Şifrə</h1>
+                            <span><input placeholder=" Yeni şifrə yaradın"><i class="fa-solid fa-eye-slash"></i></span>
+                        </div>
+                        <div class="PasswordSave-PasswordForgot">
+                            <span><input type="checkbox" checked>
+                                <h1>Şifrəni xatırla</h1>
+                            </span>
+                            <a id="ForgotPasswordBtn" href="#">Şifrəmi unutdum</a>
+                        </div>
+                        <div class="SignIn-Or-Registration">
+                            <button class="SignIn"><span>Daxil ol</span></button>
+                            <h1>Saytımızda yenisiz? o zaman</h1>
+                            <button class="Registration"><span>Qeydiyyatdan keçin</span></button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="myModal1" class="modal1 allmodal">
+            <div class="modal-content">
+                <div class="Modal-Email">
+                    <span id="close" class="close">&times;</span>
+                    <div class="modal-header">
+                        <div class="GirisDescription">
+                            <h1>“Sat Getsin” ə xoş gəlmişsiniz !</h1>
+                            <h2>Qeydiyyat zamanı istifadə etdiyiniz e-mail (nömrə) və şifrə vasitəsilə daxil olun</h2>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="Email-And-Number">
+                            <li>
+                                <a href="#" id="myBtn-Email" class="SignMail">Email</a>
+                            </li>
+                            <li>
+                                <a href="#" class="SignNumber-active">Mobil nömrə</a>
+                            </li>
+                        </div>
+                        <div class="Phone-And-Password">
+                            <h1>Mobil nömrə</h1>
+                            <select id="numbers">
+                                <option value="(+994) 70">(+994) 70</option>
+                                <option value="(+994) 55">(+994) 55</option>
+                                <option value="(+994) 50">(+994) 50</option>
+                                <option value="(+994) 51">(+994) 51</option>
+                            </select>
+                            <input placeholder="Mobil nömrənizi daxil edin">
+                            <h1>Şifrə</h1>
+                            <span><input id="PasswordInput" type="password" placeholder=" Yeni şifrə yaradın"><i
+                                    onclick="Change()" id="fa-eye-slash" class="fa-solid fa-eye-slash"></i></span>
+                        </div>
+                        <div class="PasswordSave-PasswordForgot">
+                            <span><input type="checkbox" checked>
+                                <h1>Şifrəni xatırla</h1>
+                            </span>
+                            <a href="#">Şifrəmi unutdum</a>
+                        </div>
+                        <div class="SignIn-Or-Registration">
+                            <button id="myBtn3" class="SignIn"><span>Daxil ol</span></button>
+                            <h1>Saytımızda yenisiz? o zaman</h1>
+                            <button class="Registration"><span>Qeydiyyatdan keçin</span></button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="myModal3" class="modal3 allmodal">
+            <div class="modal-content-registration">
+                <div class="Modal-Registration">
+                    <span id="close" class="close">&times;</span>
+                    <div class="modal-header">
+                        <div class="QeydiyyatDescription">
+                            <h1>Qeydiyyat</h1>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="Name-And-Surname">
+                            <h1 href="">Ad soyad</h1>
+                            <input type="text">
+                        </div>
+                        <div class="Registration-Email">
+                            <h1>Email</h1>
+                            <input type="text">
+                        </div>
+                        <div class="Registration-Number">
+                            <h1>Mobil nömrə</h1>
+                            <select id="numbers">
+                                <option value="(+994) 70">(+994) 70</option>
+                                <option value="(+994) 55">(+994) 55</option>
+                                <option value="(+994) 50">(+994) 50</option>
+                                <option value="(+994) 51">(+994) 51</option>
+                            </select>
+                            <input type="text">
+                        </div>
+                        <div class="Registration-Password">
+                            <h1>Şifrə</h1>
+                            <span><input type="text" id="PasswordInput" type="password"><i onclick="Change()"
+                                    id="fa-eye-slash" class="fa-solid fa-eye-slash"></i></span>
+                        </div>
+                        <div class="Verification-Section">
+                            <input type="text" placeholder="Şəkildəki kodu daxil edin">
+                            <a class="Verification-Code-Generator">
+                                <h1>5064</h1>
+                            </a>
+                        </div>
+                        <div class="AgreementRules">
+                            <input type="checkbox">
+                            <a href="#">İstifadəçi şərtləri</a><a href="#"> ilə razıyam</a>
+                        </div>
+                        <div class="Modal-Buttons">
+                            <button id="myBtn4" class="DavamEt">
+                                <h2>Davam edin</h2>
+                            </button>
+                            <h1>Hesabınız var? o zaman</h1>
+                            <button class="DaxilOl">
+                                <h2>Daxil olun</h2>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal4" class="modal4 allmodal">
+            <div class="modal-content-code">
+                <div class="Modal-Registration-phone-code">
+                    <span id="close" class="close">&times;</span>
+                    <div class="modal-header">
+                        <div class="QeydiyyatDescription">
+                            <h1>Qeydiyyat</h1>
+                            <div class="Gonderilen-code">
+                                <h1>Telefonunuza göndərilən 4 xanalı kodu girin</h1>
+                            </div>
+                        </div>
+                        <div class="numbers-code">
+                            <div class="numb">
+                                <input maxlength="1" required type="text">
+                                <input maxlength="1" required type="text">
+                                <input maxlength="1" required type="text">
+                                <input maxlength="1" required type="text">
+                                <input maxlength="1" required type="text">
+                                <input maxlength="1" required type="text">
+                            </div>
+                        </div>
+                        <div class="code-time">
+                            <span>time</span>
+                        </div>
+                        <div class="approve-numb-button" id="approve-numb-button">
+                            <button onclick="onclick()" id="tesdiq">
+                                <h1>Təsdiq edin</h1>
+                            </button>
+                        </div>
+                        <div class="Code-issue" id="Code-issue">
+                            <a href="#">Nömrəni yenilə</a>
+                            <a href="#">Kodu yenidən göndər</a>
+                        </div>
+                        <div class="complete-registration" id="complete-registration">
+                            <button>
+                                <h1>Qeydiyyatınız tamamlandı</h1>
+                            </button>
+                            <button>
+                                <h2>Daxil olun</h2>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal5" class="modal5 allmodal">
+            <div class="modal-content-fp">
+                <div class="Modal-Forgot-Password">
+                    <span id="close" class="close">&times;</span>
+                    <div class="modal-header">
+                        <div class="Forgot-Password-Description">
+                            <h1>Şifrəmi unutdum</h1>
+                            <h3>Narahat olmayın biz sizə daxil olmaq üçün kod göndərəcəyik</h3>
+                        </div>
+                    </div>
+                    <div id="Email-or-Phone" class="Email-or-Phone">
+                        <div class="Email-And-Number">
+                            <li>
+                                <a href="#" class="Email-active-fp">Email</a>
+                            </li>
+                            <li>
+                                <a href="#" id="btnPhone" class="Number-fp">Mobil nömrə</a>
+                            </li>
+                        </div>
+                        <div class="Email-input-section-fp">
+                            <h1>Email</h1>
+                            <input type="text" placeholder="Emailinizi daxil edin">
+                            <button id="SendLinkbtn">
+                                <h1>Linki göndər</h1>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="Phone-or-Email" class="Phone-or-Email">
+                        <div class="Email-And-Number">
+                            <li>
+                                <a href="#" id="btnEmail" class="Email-fp">Email</a>
+                            </li>
+                            <li>
+                                <a href="#" class="Number-active-fp">Mobil nömrə</a>
+                            </li>
+                        </div>
+                        <div class="Phone-input-section-fp">
+                            <h1>Mobil nömrə</h1>
+                            <input type="text" placeholder="Mobil nömrənizi daxil edin">
+                            <button id="UpdatePassword">
+                                <h1>Şifrəmi yenilə</h1>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal6" class="modal6 allmodal">
+            <div class="modal-content-code">
+                <div class="Modal-Registration-phone-code">
+                    <span id="close" class="close">&times;</span>
+                    <div class="modal-header">
+                        <div class="CheckPhoneDescription">
+                            <h1>Telefonunuzu yoxlayın</h1>
+                            <h3>Lazımi məlumatlar (+994) 70 252 54 56 nömrəsinə göndərildi.
+                                Telefonunuza göndərilən 4 xanalı kodu girin</h3>
+                        </div>
+                        <div class="CheckEmailDescription">
+                            <h1>E-mailinizi yoxlayın</h1>
+                            <h3>Lazımi məlumatlar example@az ünvanına göndərildi.
+                                Emailinizə göndərilən 4 xanalı kodu girin</h3>
+
+                        </div>
+                        <div class="numbers-code">
+                            <div class="numb">
+                                <input maxlength="1" required type="text">
+                                <input maxlength="1" required type="text">
+                                <input maxlength="1" required type="text">
+                                <input maxlength="1" required type="text">
+                            </div>
+                        </div>
+                        <div class="code-time">
+                            <span>time</span>
+                        </div>
+                        <div class="approve-numb-button">
+                            <button id="DavamBtn">
+                                <h1>Davam edin</h1>
+                            </button>
+                        </div>
+                        <div class="Code-issue" id="Code-issue">
+                            <a href="#">Nömrəni yenilə</a>
+                            <a href="#">Kodu yenidən göndər</a>
+                        </div>
+                        <div class="complete-registration" id="complete-registration">
+                            <button>
+                                <h1>Qeydiyyatınız tamamlandı</h1>
+                            </button>
+                            <button id="DavamBtn">
+                                <h2>Daxil olun</h2>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal7" class="modal7 allmodal">
+            <div class="modal-content-new-password">
+                <div class="Modal-Registration-phone-code">
+                    <span id="close" class="close">&times;</span>
+                    <div class="modal-header">
+                        <div class="QeydiyyatDescription">
+                            <h1>Yeni şifrənizi yazın</h1>
+                        </div>
+                        <div class="New-Password-Section">
+                            <h1>Yeni şifrə</h1>
+                            <span><input id="PasswordInput" class="Password--Input" type="password"
+                                    placeholder=" Yeni şifrə yaradın"><i onclick="Change()" id="fa-eye-slash"
+                                    class="fa-solid fa-eye-slash"></i></span>
+
+                            <h1>Yeni şifrənin təkrarı</h1>
+                            <span><input id="PasswordInput" class="Password--Input" type="password"
+                                    placeholder=" Yeni şifrə yaradın"><i onclick="Change()" id="fa-eye-slash"
+                                    class="fa-solid fa-eye-slash"></i></span>
+                        </div>
+                        <div class="Save--Password">
+                            <span><input type="checkbox" checked>
+                                <h1>Şifrəni xatırla</h1>
+                            </span>
+                        </div>
+                        <div class="Confirm-Password-Button">
+                            <button id="New--Password--Button">
+                                <h2>Şifrəmi yenilə</h2>
+                            </button>
+                        </div>
+                        <div id="Success-Password-Change" class="Success-Password-Change">
+                            <button>
+                                <h1>Şifrəniz uğurla yeniləndi</h1>
+                            </button>
+                            <button>
+                                <h2>Daxil olun</h2>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+            integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+            integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="assets/js/app.js"></script>
+    </body>
+
+</html>
